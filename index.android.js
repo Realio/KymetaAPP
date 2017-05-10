@@ -8,7 +8,7 @@ export default class KymetaTimeKeeper extends Component {
   render() {
     return (
       <View>
-        <Header headerText={'Kymeta Time Keeper App'}/>
+        <Header headerText={'Kymeta Time Keeper Aid'}/>
         <Body/>
       </View>
     );
