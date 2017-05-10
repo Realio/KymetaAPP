@@ -23,7 +23,7 @@ class ChamberPicker extends React.Component {
 
     render() {
         return (
-          <View style ={{flexDirection: 'column', backgroundColor: 'steelblue'}}>
+          <View style ={{flexDirection: 'column', backgroundColor: '#003f77'}}>
             <Text style={styles.pickerTextStyle}>Step1: Which Chamber are you using?</Text>
               <Picker
                 selectedValue={this.state.selectedChamber}

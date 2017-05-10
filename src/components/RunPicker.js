@@ -23,7 +23,7 @@ class RunPicker extends React.Component {
 
     render() {
         return (
-          <View style ={{flexDirection: 'column', backgroundColor: 'powderblue'}}>
+          <View style ={{flexDirection: 'column', backgroundColor: '#6993BC'}}>
             <Text style={styles.pickerTextStyle}>Step2: What run are you using?</Text>
               <Picker
                 selectedValue={this.state.selectedRun}

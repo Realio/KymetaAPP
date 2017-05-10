@@ -6,7 +6,7 @@ import StartButton from './StartButton';
 const BodySection3 = (props) => {
   return (
     <View style = {styles.containerStyle}>
-    <Text style={styles.bodySectionTextStyle}>Click When Ready</Text>
+    <Text style={styles.bodySectionTextStyle}>Click When Started!</Text>
     <StartButton/>
     </View>
   );
