@@ -37,6 +37,7 @@ class RunPicker extends React.Component {
 
 const styles = {
   pickerTextStyle: {
+    color: '#FFFFFF',
     fontSize: 16,
     paddingTop: 15,
 //    paddingLeft: 20

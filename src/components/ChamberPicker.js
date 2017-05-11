@@ -11,7 +11,7 @@ class ChamberPicker extends React.Component {
     state = {
       selectedChamber: 'Choose:',
       chambers: ['Choose:','Hertz', 'Ellie', 'Brick'],
-      color: 'red',
+      color: '#FFFFFF',
       mode: Picker.MODE_DIALOG,
     };
 
@@ -37,6 +37,7 @@ class ChamberPicker extends React.Component {
 
 const styles = {
   pickerTextStyle: {
+    color: '#FFFFFF',
     fontSize: 16,
     paddingTop: 15,
 //    paddingLeft: 20
