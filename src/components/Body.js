@@ -34,6 +34,15 @@ containerStyle: {
   marginRight: 5,
   marginTop: 10
   },
+
+  bodySectionTextStyle: {
+    fontSize: 16,
+    paddingTop: 15,
+    paddingBottom: 15,
+    paddingRight: 20,
+    paddingLeft: 15,
+  //    paddingLeft: 20
+    },
   textStyle: {
     color: '#151B8D',
     fontSize: 25,
