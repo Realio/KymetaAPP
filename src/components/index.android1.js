@@ -5,12 +5,11 @@ import Header from './src/components/Header';
 import Body from './src/components/Body';
 import AlbumList from './src/components/AlbumList';
 
-
 export default class KymetaAPP extends Component {
   render() {
     return (
       <View style= {{flex: 1}}>
-        <Header headerText={'Kymeta Time Keeper Aid'}/>
+        <Header headerText={'Kymeta Time asdfKeeper Aid'}/>
         <AlbumList/>
       </View>
     );

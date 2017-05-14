@@ -3,6 +3,7 @@ import {Text, View} from 'react-native'
 import BodySection1 from './BodySection1'
 import BodySection2 from './BodySection2'
 import BodySection3 from './BodySection3'
+import Counter from './Counter'
 import MyPicker from './MyPicker'
 
 
@@ -12,6 +13,7 @@ const Body = () => {
   return(
     <View style={styles.containerStyle}>
     <Text style={textStyle}>Welcome to the Time Keeper </Text>
+    <Counter/>
     <BodySection1/>
     <BodySection2/>
     <BodySection3/>
