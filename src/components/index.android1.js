@@ -9,7 +9,7 @@ export default class KymetaAPP extends Component {
   render() {
     return (
       <View style= {{flex: 1}}>
-        <Header headerText={'Kymeta Time asdfKeeper Aid'}/>
+        <Header headerText={'Kymeta Time Keeper Aid'}/>
         <AlbumList/>
       </View>
     );
