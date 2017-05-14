@@ -1,8 +1,8 @@
 import React from 'react'
-import {Text, TouchableHighlight,View} from 'react-native'
+import {Text, TouchableHighlight,View,Alert} from 'react-native'
 
 
-
+var alertMessage = 'I hate Khoa';
 const MyAlert = () => {
 
   return (
@@ -24,7 +24,7 @@ const styles = {
     marginBottom: 5,
   },
   button: {
-    backgroundColor: '#eeeeee',
+    backgroundColor: '#999999',
     padding: 10,
   },
 }
