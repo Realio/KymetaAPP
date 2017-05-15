@@ -1,18 +1,18 @@
 import React from 'react'
 import {Text, TouchableOpacity, View} from 'react-native'
-import RunPicker from './RunPicker' //necessary?
+import RunPicker from './RunPicker' // necessary?
 
 import {bindActionCreators} from 'redux';
 import * as appActions from '../actions/appActions';
 import { connect } from 'react-redux';
 
-const Counter = (props) => {
+const ChamberRun = (props) => {
   const {counter, dispatch} = props;
 
   return (
-    <TouchableOpacity onPress={() => dispatch(appActions.increment())}>
+    <TouchableOpacity onPress={() => dispatch(appActions.CreateRun())}>
       <View>
-        <Text>{counter}</Text>
+        <RunPicker/>
       </View>
     </TouchableOpacity>
   );
@@ -24,12 +24,12 @@ const styles = {
 
 export default connect(
   (state) => {
-    // this modifies the properties being passed to Counter to add
+    // this modifies the properties being passed to Chamber? to add
     // the counter variable from redux state
     let {counter} = state.app;
 
     return {
-      counter
+      counter???????????????????????
     }
   },
   (dispatch) => {

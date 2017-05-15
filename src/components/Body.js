@@ -4,6 +4,9 @@ import BodySection1 from './BodySection1'
 import BodySection2 from './BodySection2'
 import BodySection3 from './BodySection3'
 import Counter from './Counter'
+import CounterReset from './CounterReset'
+import CounterMultiplier from './CounterMultiplier'
+import ChamberRun from './ChamberRun'
 import MyPicker from './MyPicker'
 
 
@@ -11,13 +14,16 @@ import MyPicker from './MyPicker'
 const Body = () => {
   const { textStyle, viewStyle } = styles;
   return(
-    <View style={styles.containerStyle}>
-    <Text style={textStyle}>Welcome to the Time Keeper </Text>
-    <Counter/>
-    <BodySection1/>
-    <BodySection2/>
-    <BodySection3/>
-    </View>
+      <View style={styles.containerStyle}>
+      <Text style={textStyle}>Welcome to the Time Keeper </Text>
+      <Counter/>
+      <CounterReset/>
+      <CounterMultiplier/>
+      <ChamberRun/>
+      <BodySection1/>
+      <BodySection2/>
+      <BodySection3/>
+      </View>
   );
 };
 
