@@ -47,7 +47,7 @@ export default class KymetaAPP extends Component {
         <Text> {CHAMBERS[2]} </Text>
         <Body/>
         <MyAlert/>
-        <MyPicker/>
+{/*         <MyPicker/>  */}
       </View>
       </Provider>
     } else {

@@ -44,17 +44,17 @@ class MyPicker extends React.Component {
               <Picker
                 selectedValue={this.state.selectedChamber}
                 onValueChange={ (val) => this.setChamber(val) }>
-                  { this.state.chambers.map((chamber) => <Item label={chamber} value={chamber} />) }
+                  { this.state.chambers.map((chamber, idx) => <Item key={`chamber-${idx}`} label={chamber} value={chamber} />) }
               </Picker>
               <Picker
                 selectedValue={this.state.selectedRun}
                 onValueChange={ (val) => this.setRun(val) }>
-                  { this.state.runs.map((run) => <Item label={run} value={run} />) }
+                  { this.state.runs.map((run, idx) => <Item key={'run-${idx}'} label ={run} value={run} />) }
               </Picker>
               <Picker
                 selectedValue={this.state.selectedTimer}
                 onValueChange={ (val) => this.setTimer(val) }>
-                  { this.state.timers.map((timer) => <Item label={timer} value={timer} />) }
+                  { this.state.timers.map((timer, idx) => <Item key={'timer-${idx}'} label = {timer} value={timer} />) }
               </Picker>
               <Text>
               {this.state.selectedChamber}
