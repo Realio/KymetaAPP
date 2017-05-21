@@ -1,4 +1,4 @@
 export const INCREMENT = 'INCREMENT';
-export const RESETCOUNTER = 'RESETCOUNTER';
+export const RESET_COUNTER = 'RESET_COUNTER';
 export const MULTIPLIER = 'MULTIPLIER';
 export const CREATE_RUN = 'CREATE_RUN';

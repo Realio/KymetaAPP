@@ -7,10 +7,14 @@ import * as appActions from '../actions/appActions';
 import { connect } from 'react-redux';
 
 const ChamberRun = (props) => {
-  const {counter, dispatch} = props;
+  const {dispatch} = props;
 
   return (
-    <TouchableOpacity onPress={() => dispatch(appActions.CreateRun())}>
+    <TouchableOpacity onPress={() => {
+      let action = appActions.createRun();
+      console.log('dispatching', action);
+      dispatch(action);
+    }}>
       <View>
         <RunPicker/>
       </View>
@@ -24,13 +28,9 @@ const styles = {
 
 export default connect(
   (state) => {
-    // this modifies the properties being passed to Chamber? to add
-    // the counter variable from redux state
     let {counter} = state.app;
 
-    return {
-      counter???????????????????????
-    }
+    return {}
   },
   (dispatch) => {
     // this modifies the properties being passed to Counter to add a dispatch method for redux
@@ -38,4 +38,4 @@ export default connect(
       dispatch
     }
   }
-)(Counter);
+)(ChamberRun);

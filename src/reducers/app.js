@@ -19,7 +19,7 @@ export default function handleAction(state = initialState, action = {}) {
         counter: state.counter + action.amount
       };
 
-    case types.RESETCOUNTER:
+    case types.RESET_COUNTER:
       console.log('resetting');
       //resetting my counter object back to initial value
       return {
