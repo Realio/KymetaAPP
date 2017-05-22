@@ -1,6 +1,6 @@
 import React from 'react'
 import {Text, TouchableOpacity, View} from 'react-native'
-import RunPicker from './RunPicker' // necessary?
+import MyPicker from './MyPicker' // necessary?
 
 import {bindActionCreators} from 'redux';
 import * as appActions from '../actions/appActions';
@@ -16,7 +16,7 @@ const ChamberRun = (props) => {
       dispatch(action);
     }}>
       <View>
-        <RunPicker/>
+        <MyPicker/>
       </View>
     </TouchableOpacity>
   );

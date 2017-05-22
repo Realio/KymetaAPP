@@ -1,7 +1,7 @@
 import * as types from '../actions/actionTypes';
 
 const initialState = {
-  counter: 5,
+  counter: 0,
   chamber: 'Choose Chamber',
   type: 'Choose Type',
   duration: 'Choose Duration'

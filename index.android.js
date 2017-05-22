@@ -43,11 +43,11 @@ export default class KymetaAPP extends Component {
     if (this.state.store) {
       return <Provider store={this.state.store}>
       <View style= {{flex: 1}}>
-        <Header headerText={'Kymeta Time Keeper Aid'}/>
-        <Text> {CHAMBERS[2]} </Text>
+        <Header headerText={'Kymeta Time Keeper'}/>
+{/*        <Text> {CHAMBERS[2]} </Text>  */}
         <Body/>
-        <MyAlert/>
-{/*         <MyPicker/>  */}
+{/*         <MyAlert/>
+        <MyPicker/>  */}
       </View>
       </Provider>
     } else {

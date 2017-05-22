@@ -34,7 +34,8 @@ containerStyle: {
   elevation: 1,
   marginLeft: 5,
   marginRight: 5,
-  marginTop: 10
+  marginTop: 10,
+  backgroundColor: '#6699C2'
   },
 
   bodySectionTextStyle: {
