@@ -6,7 +6,7 @@ import * as appActions from '../actions/appActions';
 import { connect } from 'react-redux';
 
 
-const MultiplyNumber = 3  //edit this to change your multiplier
+const MultiplyNumber = 2  //edit this to change your multiplier
 
 
 const CounterMultiplier = (props) => {
