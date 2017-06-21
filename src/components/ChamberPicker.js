@@ -3,6 +3,7 @@ import {Text, View, Picker}from 'react-native'
 
 const Item = Picker.Item;
 
+//he sucks
 class ChamberPicker extends React.Component {
     static title = '<ChamberPicker>';
     static description =
